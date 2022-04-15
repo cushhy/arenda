@@ -292,12 +292,18 @@ option {
   color: transparent;
   border: 0;
   background: none;
-  outline: none !important;
   cursor: pointer;
   position: absolute;
   top: 14px;
   right: 24px;
   z-index: 1;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (max-width: 25em) {
@@ -327,6 +333,13 @@ option {
   background: #D3D7DB;
   -webkit-transition: all 0ms 300ms;
   transition: all 0ms 300ms;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .nav-toggle__item.active {
