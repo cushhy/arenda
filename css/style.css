@@ -510,7 +510,6 @@ option {
 
 @media (max-width: 25em) {
   .intro__text {
-    padding-top: 200px;
     max-width: 100%;
   }
 }
