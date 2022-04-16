@@ -769,7 +769,7 @@ option {
 .intro__img {
   position: absolute;
   right: 5%;
-  bottom: 15%;
+  bottom: 13%;
 }
 
 @media (max-width: 100em) {
